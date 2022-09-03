@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Tree</title>
+
+    <!-- #region Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- #endregion Google Fonts -->
+
+    <!-- #region Styles -->
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <!-- #endregion Styles -->
+  </head>
+  <body>
+    <!-- #region User Profile Picture -->
+    <div id="profile-picture">
+      <img
+        tabindex="1"
+        aria-label="profile picture"
+        src="assets/pp.png"
+        alt="Profile picture"
+      />
+    </div>
+    <!-- #endregion User Profile Picture -->
+
+    <!-- #region User Tag -->
+    <a id="user-tag" tabindex="2" aria-label="user tag" href="/">@instagram</a>
+    <!-- #endregion User Tag -->
+
+    <!-- #region Custom Links -->
+    <div id="custom-links" aria-label="custom links">
+      <a class="custom-link" tabindex="3" href="/">Link 1</a>
+      <a class="custom-link" tabindex="4" href="/">Link 2</a>
+      <a class="custom-link" tabindex="5" href="/">Link 3</a>
+      <a class="custom-link" tabindex="6" href="/">Link 4</a>
+    </div>
+    <!-- #endregion Custom Links -->
+
+    <!-- #region Other Links -->
+    <ul id="other-links" aria-label="other links">
+      <!-- #region Twitter -->
+      <li>
+        <a id="icon-twitter" target="_blank" href="https://twitter.com/"
+          >Twitter</a
+        >
+      </li>
+      <!-- #endregion Twitter -->
+
+      <li class="separator">&bull;</li>
+
+      <!-- #region Twitch -->
+      <li>
+        <a id="icon-twitch" target="_blank" href="https://www.twitch.tv/"
+          >Twitch</a
+        >
+      </li>
+      <!-- #endregion Twitch -->
+
+      <li class="separator">&bull;</li>
+
+      <!-- #region Instagram -->
+      <li>
+        <a id="icon-instagram" target="_blank" href="https://www.instagram.com/"
+          >Instagram</a
+        >
+      </li>
+      <!-- #endregion Instagram -->
+
+      <li class="separator">&bull;</li>
+
+      <!-- #region LinkedIn -->
+      <li>
+        <a id="icon-linkedin" target="_blank" href="https://www.linkedin.com/"
+          >LinkedIn</a
+        >
+      </li>
+      <!-- #endregion LinkedIn -->
+
+      <li class="separator">&bull;</li>
+
+      <!-- #region GitHub -->
+      <li>
+        <a id="icon-github" target="_blank" href="https://github.com/"
+          >GitHub</a
+        >
+      </li>
+      <!-- #endregion GitHub -->
+    </ul>
+    <!-- #endregion Other Links -->
+
+    <script src="index.js"></script>
+  </body>
+</html>
