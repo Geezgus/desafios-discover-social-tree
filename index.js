@@ -2,11 +2,11 @@ const onAssetsSuccess = new CustomEvent("assetsSuccess", {});
 
 const main = () => {
   const assets = {
-    "icon-twitter": "/assets/twitter.svg",
-    "icon-twitch": "/assets/twitch.svg",
-    "icon-instagram": "/assets/instagram.svg",
-    "icon-linkedin": "/assets/linkedin.svg",
-    "icon-github": "/assets/github.svg",
+    "icon-twitter": "./assets/twitter.svg",
+    "icon-twitch": "./assets/twitch.svg",
+    "icon-instagram": "./assets/instagram.svg",
+    "icon-linkedin": "./assets/linkedin.svg",
+    "icon-github": "./assets/github.svg",
   };
 
   addEventListener("assetsSuccess", () => {
