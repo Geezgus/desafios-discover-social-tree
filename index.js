@@ -39,9 +39,7 @@ const requestAllInTarget = (target, onSuccessOfAll) => {
       }
     };
 
-    const requestFailure = () => {};
-
-    requestAsset(asset, requestSucess, requestFailure);
+    requestAsset(asset, requestSucess);
   }
 };
 
