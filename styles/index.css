@@ -32,8 +32,8 @@ body {
 }
 
 #profile-picture {
-  max-width: 20rem;
-  max-height: 20rem;
+  width: 20rem;
+  height: 20rem;
 
   margin-top: 1.6rem;
 
