@@ -29,7 +29,7 @@ body {
 }
 
 /* || UTILITIES */
-.disabled {
+.hidden {
   visibility: hidden;
 }
 
@@ -71,6 +71,16 @@ body {
 
 #user-tag {
   margin-top: 2.2rem;
+
+  transition: all 0.1s linear;
+  transition-property: color, background-color;
+}
+
+#user-tag:focus {
+  border-radius: 0.4rem;
+
+  background-color: var(--color-primary);
+  color: white;
 }
 
 /* || CUSTOM LINKS */
@@ -102,6 +112,11 @@ body {
   background-color: var(--color-primary);
 }
 
+.custom-link:focus {
+  color: white;
+  background-color: var(--color-primary);
+}
+
 /* || OTHER LINKS */
 #other-links {
   margin-top: 6.8rem;
@@ -112,6 +127,20 @@ body {
   justify-content: center;
 
   gap: 1.45rem;
+}
+
+.icon {
+  border-radius: 0.4rem;
+
+  transition: all 0.1s linear;
+  transition-property: color, background-color;
+
+  user-select: none;
+}
+
+.icon:focus {
+  background-color: var(--color-primary);
+  color: white;
 }
 
 .separator {

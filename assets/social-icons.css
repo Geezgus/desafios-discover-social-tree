@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Social-Icons';
+  src:  url('fonts/Social-Icons.eot?dap8ou');
+  src:  url('fonts/Social-Icons.eot?dap8ou#iefix') format('embedded-opentype'),
+    url('fonts/Social-Icons.ttf?dap8ou') format('truetype'),
+    url('fonts/Social-Icons.woff?dap8ou') format('woff'),
+    url('fonts/Social-Icons.svg?dap8ou#Social-Icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Social-Icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-filled-github:before {
+  content: "\e900";
+}
+.icon-filled-instagram:before {
+  content: "\e901";
+}
+.icon-filled-linkedin:before {
+  content: "\e902";
+}
+.icon-filled-twitch:before {
+  content: "\e903";
+}
+.icon-filled-twitter:before {
+  content: "\e904";
+}
+.icon-github:before {
+  content: "\e905";
+}
+.icon-instagram:before {
+  content: "\e906";
+}
+.icon-linkedin:before {
+  content: "\e907";
+}
+.icon-twitch:before {
+  content: "\e908";
+}
+.icon-twitter:before {
+  content: "\e909";
+}
